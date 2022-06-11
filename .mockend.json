@@ -1,7 +1,14 @@
 {
- "posts":{
-    "name": "Shaon_Keep",
-    "image": "https://i.ibb.co/8gnnzCH/Screenshot-3-1.png",
-    "link": "https://shaon-keep.netlify.app"
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
