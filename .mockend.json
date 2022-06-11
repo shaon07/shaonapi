@@ -1,8 +1,8 @@
 {
   "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+    "name": "Shaon_Keep",
+    "image": "https://i.ibb.co/8gnnzCH/Screenshot-3-1.png",
+    "link": "https://shaon-keep.netlify.app"
     }
   },
   "Comment": {
